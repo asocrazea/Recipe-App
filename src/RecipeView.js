@@ -13,7 +13,7 @@ export default function RecipeView({ recipe, deleteRecipe }) {
         <p>{recipe.ingredients}</p>
       </td>
       <td className="context_td">
-        <p>{recipe.preperation}</p>
+        <p>{recipe.preparation}</p>
       </td>
       <td>
         <button name="delete" onClick={deleteRecipe}>

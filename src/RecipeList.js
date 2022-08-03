@@ -35,39 +35,4 @@ function RecipeList({ recipes, deleteRecipe }) {
   );
 }
 
-// const rows = RecipeList.map(
-//   ({ name, cuisine, photo, ingredients, preperations, actions }, index) => (
-//     <tr key={index}>
-//       <td>{RecipeData.name}</td>
-//       <td>{RecipeData.cuisine}</td>
-//       <td>{RecipeData.photo}</td>
-//       <td>{RecipeData.ingredients}</td>
-//       <td>{RecipeData.preperations}</td>
-//       <td>{RecipeData.actions}</td>
-//     </tr>
-//   )
-// );
-
-//   return (
-//     <div className="recipe-list">
-//       <table>
-//         <thead>
-//           <tr>
-//             <th>Name</th>
-//             <th>Cuisine</th>
-//             <th>Photo</th>
-//             <th>Ingredients</th>
-//             <th>Preperation</th>
-//             <th>Actions</th>
-//           </tr>
-//         </thead>
-//         <tbody>
-//           {rows}
-//           <button name="delete">Delete</button>
-//         </tbody>
-//       </table>
-//     </div>
-//   );
-// }
-
 export default RecipeList;
