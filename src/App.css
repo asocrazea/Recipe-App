@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
-
+/* */
+h1 {
+  font-size: 64px;
+  font-family: 'Playfair Display SC';
+  text-align: center;
+}
 .App {
   padding: 1em;
 }
@@ -35,8 +40,11 @@ td {
   font-size: 12px;
   padding: 10px;
   text-align: center;
+  border-top: #7400b8;
 }
+span tr:nth-child(even) {
 
+}
 /* table */
 
 table {
@@ -44,7 +52,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   overflow:hidden;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  border-color: #4ea8de;
 }
 
 .content_td p {
@@ -55,6 +64,40 @@ table {
 }
 
 /* Column Size for thead */
-
-
+.content_td {
+  width: 30%;
+}
 /* Column size for tbody */
+
+/* psuedo classes */
+a:link { color: blue; }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: yellow; }  /* Hovered links */
+a:active { color: red; }         /* Active links */
+.btn {
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #4ea8de 40%, #7400b8);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
+img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+  box-shadow: 6px 6px 6px #4ea8de;
+}
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}

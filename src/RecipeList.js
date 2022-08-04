@@ -21,7 +21,7 @@ function RecipeList({ recipes, deleteRecipe }) {
             <th>Actions</th>{" "}
           </tr>
         </thead>
-        <tbody>
+        <tbody className="scroller">
           {recipes.map((recipe, index) => (
             <RecipeView
               deleteRecipe={() => deleteRecipe(index)}

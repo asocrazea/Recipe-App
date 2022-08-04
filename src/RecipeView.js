@@ -7,16 +7,16 @@ export default function RecipeView({ recipe, deleteRecipe }) {
       <td>{recipe.name}</td>
       <td>{recipe.cuisine}</td>
       <td>
-        <img src={recipe.photo} alt="recipe photo" />
+        <img className="img" src={recipe.photo} alt="recipe photo" />
       </td>
-      <td className="content_td">
+      <td className="content_td scroller">
         <p>{recipe.ingredients}</p>
       </td>
-      <td className="context_td">
+      <td className="context_td scroller">
         <p>{recipe.preparation}</p>
       </td>
       <td>
-        <button name="delete" onClick={deleteRecipe}>
+        <button className="btn" name="delete" onClick={deleteRecipe}>
           Delete
         </button>
       </td>
