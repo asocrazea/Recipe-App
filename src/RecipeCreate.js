@@ -28,6 +28,7 @@ function RecipeCreate({ createRecipe }) {
         <tbody>
           <tr>
             <td>
+              <p>Name</p>
               <input
                 type="text"
                 id="name"
@@ -39,7 +40,7 @@ function RecipeCreate({ createRecipe }) {
             </td>
             <td className="col">
               {" "}
-              Cuisine
+              <p>Cuisine</p>
               <input
                 type="text"
                 id="cuisine"
@@ -51,7 +52,7 @@ function RecipeCreate({ createRecipe }) {
             </td>
             <td>
               {" "}
-              Photo
+              <p>Photo</p>
               <input
                 type="url"
                 id="photo"
@@ -62,6 +63,7 @@ function RecipeCreate({ createRecipe }) {
               />
             </td>
             <td>
+              <p>Ingredients</p>
               <textarea
                 name="ingredients"
                 id="ingredients"
@@ -71,6 +73,7 @@ function RecipeCreate({ createRecipe }) {
               ></textarea>
             </td>
             <td>
+              <p>Preparation</p>
               <textarea
                 className="text-bg"
                 name="preparation"
@@ -81,6 +84,7 @@ function RecipeCreate({ createRecipe }) {
               ></textarea>
             </td>
             <td>
+              <p>Action</p>
               <button className="btn" type="submit">
                 Create
               </button>
