@@ -31,6 +31,7 @@ thead th, tfoot th {
 th {
   letter-spacing: 2px;
   padding: 10px;
+  border-color: #7400b8;
 }
 
 td {
@@ -70,8 +71,7 @@ table {
 /* Column size for tbody */
 
 /* psuedo classes */
-a:link { color: blue; }          /* Unvisited links */
-a:visited { color: purple; }     /* Visited links */
+
 a:hover { background: yellow; }  /* Hovered links */
 a:active { color: red; }         /* Active links */
 .btn {
@@ -98,6 +98,9 @@ img {
   width: 300px;
   height: 100px;
   overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
+  scrollbar-color: rebeccapurple rgb(49, 198, 235);
   scrollbar-width: thin;
+}
+tr:nth-child(odd){ 
+  background-color: #cdde4e; 
 }
